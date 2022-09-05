@@ -9,10 +9,12 @@ function imc(){
 
     //Se o a const for Diferente de Vazio 
     if(nome !== '' && altura !== '' && peso !== ''){
-        alert ('valor preenchido')
+        const valorIMC = (peso / (altura * altura)).toFixed(1);
+
+        resultado.textContent = valorIMC;
     } else{
-        alert('Preencha os Campos')
+        resultado.textContent = 'Preencha todos os campos!'
     }
 }
 
-calcular.addEventListener('click', imc); 
+calcular.addEventListener('click', imc);
