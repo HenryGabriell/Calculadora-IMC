@@ -7,14 +7,14 @@ main{
 }
 
 html{
-    background: rgb(227, 227, 227);
+    background: rgb(221, 221, 221);
     overflow-x: hidden;
 }
 
 .container{
     display: flex;
     flex-direction: column;
-    background: rgb(248, 248, 248);
+    background: rgb(210, 210, 210);
     width: 400px;
     height: 500px;
     align-items: center;
