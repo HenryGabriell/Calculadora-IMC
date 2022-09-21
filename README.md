@@ -3,7 +3,7 @@
 Projeto Calculadora IMC. Foco em JavaScript
 <br>
 <br>
-open source 👍
+Responsiva 👍
 <br>
 <br>
 Da uma olhada:  https://henrygabriell.github.io/Calculadora-IMC/
